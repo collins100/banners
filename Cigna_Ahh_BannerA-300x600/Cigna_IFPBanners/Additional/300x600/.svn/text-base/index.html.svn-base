@@ -1,0 +1,112 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta name="description" content="">
+    <meta name="ad.size" content="width=300,height=600">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="300x600.css" />
+	<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/easing/EasePack.min.js"></script>
+    <script type="text/javascript" src="TweenLite.min.js"> </script>
+    <script type="text/javascript" src="//s0.2mdn.net/ads/studio/Enabler.js"></script>
+    <title>15CIG_IFP_Open_Enrollment_Campaign_Strat_300x600</title>
+
+		<script type="text/javascript">
+			var clickTag1 = "http://www.cignamakessense.com";
+		</script>
+
+  </head>
+   <body>
+  <a href="javascript:window.open(window.clickTag1)">
+    <div class="banner_frame">
+                <div id="animatedOrangeBox"></div>
+                <div id="animatedDarkOrangeBox"></div>
+
+                  <div id="frame1" class="mainFrame height100Percent"><div class="centerVertical">
+                    <h3 id="frame1text"><span id="frame1textA">open enrollment</span><span id="frame1textB">is here.</span></h3>
+                </div></div>
+
+
+                <div id="frame2" class="mainFrame height100Percent"><div class="centerVertical">
+                    <h2 id="frame2text"><span id="frame2textA">you can get  
+                    </span><span id="frame2textB">affordable</span><span id="frame2textC">coverage</span></h2>
+                </div></div>
+
+    
+                <div id="frame3" class="mainFrame height100Percent"><div class="centerVertical">
+                    <h2 id="frame3text"><span id="frame3textA">and access to</span><span id="frame3textB">quality doctors</span><span id="frame3textC">through</span><span id="frame3textD">BJC healthcare,</span></h2>
+                </div></div>
+
+
+                <div id="frame4" class="mainFrame height100Percent"><div class="centerVertical">
+                    <h3 id="frame4text"><span id="frame4textA">without all</span><span id="frame4textB">the headaches.</span></h3>
+                </div></div>
+
+
+                <div id="frame6" class="mainFrame">
+
+                  <div id="frame6logo"><div class="centerVertical height50Percent center">
+                    <div style=" display:inline-block; overflow: hidden; height: auto">
+                      <img src="side.svg" width="206" height="72"/>
+                      </div>
+                </div></div>
+                  
+                  <div><div class="centerVertical height50Percent center">
+                    <h2 id="frame6text" style="line-height:25px; font-weight: 400px; margin-left: 8px; text-align: center;"><span id="frame6textA">sign up for a</span><span id="frame6textB">cigna health plan</span><span id="frame6textC">before open</span><span id="frame6textD">enrollment ends.</span></h2>
+                </div></div>
+
+                  </div>
+                  
+                  
+                <div id="frame7" class="mainFrame height100Percent">
+                    <div id="frame7head">
+                        <h6><span id="frame7headA">sign up before</span><br>
+                            <span id="frame7headB">december 15<sup>th</sup></span><br>
+                            <span id="frame7headC">to be covered</span><br>
+                            <span id="frame7headD">january 1<sup>st</sup>.</span>
+                      
+                        </h6>
+                      </div>
+                    <div id="frame7text">
+                        <h4><span id="frame7textA">Choose insurance</span>
+                        <span id="frame7textB">that makes sense</span>
+                        <span id="frame7textC">with access to BJC</span>
+                        <span id="frame7textD">healthcare.</span>
+                        </h4>
+                      </div>
+                      <div id="finalLogoCTA">
+                        <div id="CTAbutton">get a quote</div>
+                        <img style="margin-left:20px;"id="frame7Logo" src="cigna_tagline_stacked_logo.svg" width="112" height="39" />
+                          <div id="disclaimer">Individual and Family Plans offered by Cigna Health and Life Insurance Company. Plans contain exclusions and limitations and are not available in all areas. &copy; 2015 Cigna.</div>
+                      </div>
+
+                  </div>
+              </div>
+                  
+                  
+  <span id="exclamationMark">!</span>
+    </div>
+  </a>
+    </body>
+
+  <script type="text/javascript" src="300x600.js"></script>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

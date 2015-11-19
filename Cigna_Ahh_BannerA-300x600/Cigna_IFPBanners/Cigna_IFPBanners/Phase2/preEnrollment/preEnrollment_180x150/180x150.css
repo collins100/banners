@@ -1,0 +1,205 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+a,
+.text_link {
+	cursor: pointer;
+	color: inherit;
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+.banner_frame {
+	float: left;
+	position: relative;
+	width: 180px;
+	height: 150px;
+	color: #fff;
+	font-family:Arial, Helvetica, sans-serif;
+	border: solid 1px #000;
+	overflow: hidden;
+	box-sizing: border-box;
+	position: relative;
+	cursor: pointer;
+	max-width: 180px;
+	background: #ffffff;
+}
+#animatedCyanBox {
+	background: #00a9ed;
+	width: 180px;
+	height: 150px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+}
+
+.mainFrame {
+	display: table;
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+	width: 180px;
+	box-sizing: border-box;
+}
+.centerVertical {
+	display: table-cell;
+	vertical-align: middle;
+	width: 180px;
+	box-sizing: border-box;
+}
+h1 {
+	display: block;
+	margin-left: 35px;
+	font-size: 30px;
+}
+h2 {
+	display: block;
+	margin-left: 18px;
+	font-size: 17px;
+	line-height: 24px;
+	text-transform:uppercase;
+	font-weight: 400;
+}
+.center h2 {
+	margin-left: 0px;
+}
+h3 {
+	display: block;
+	padding-left: 10px;
+	padding-right: 20px;
+	padding-top: 16px;
+	padding-bottom: 40px;
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: bold;
+	text-transform:uppercase;
+}
+h4 {
+	display: block;
+	padding-left: 12px;
+	padding-right: 15px;
+	padding-top: 30px;
+	margin-top: 20px;
+	padding-bottom: 35px;
+	font-size: 15px;
+	line-height: 18px;
+}
+h1 span, h2 span, h3 span, h4 span {
+	display: block;
+}
+sup {
+	font-size: 50%;
+}
+#questionMark {
+	position: absolute;
+	top: 54.5px;
+	left: 108.5px;
+	z-index: 2;
+	color: #ffffff;
+	font-size: 52px;
+	opacity: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#HUH {
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left: 32px;
+}
+#frame5, #frame6, #frame7 {
+	opacity: 1;
+}
+#frame5textA, #frame5textB, #frame5textC, #frame6logo, #frame6textA, #frame6textB, #frame6textC, #frame7headA, #frame7headB, #frame7headC, #frame7headD, #frame7headE, #frame7headF, #frame7textA, #frame7textB, #frame7textC, #frame7textD, #CTAbutton, #frame7Logo {
+	opacity: 0;
+}
+#finalLogoCTA {
+	padding: 10px;
+}
+#frame7Logo {
+	position: relative;
+	left: -10px;
+}
+#CTAbutton {
+	background-color: #014886;
+	float: right;
+	width: 89px;
+	height: 22px;
+	font-size: 11px;
+	line-height: 18px;
+	text-align: center;
+	text-transform:uppercase;
+	padding-left: 4px;
+	padding-right: 4px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	opacity: 0;
+}
+#disclaimer {
+	position: absolute;
+	opacity: 0;
+	font-size: 8px;
+	line-height: 10px;
+	color: #58595b;
+	margin-top: -187px;
+	padding: 4px;
+	margin-right: 5px;
+	width:170px;
+	height:50px;
+	z-index:9999;
+	background-color: #ffffff;
+	border: 1px solid #000000;
+}
+#disclaimer p{
+	margin-top:3px;
+	margin-left:3px;
+
+}
+	/* ---- Generic Styles  -----  */
+.height50Percent {
+	height: 75px;
+	box-sizing: border-box;
+}
+.height100Percent {
+	height: 150px;
+	box-sizing: border-box;
+}
+.whiteBkgd {
+	background-color: #ffffff;
+}
+.darkBlueBkgd {
+	background-color: #004986;
+}
+.cyanBkgd {
+	background-color: #00a9ed;
+}
+.center {
+	text-align: center;
+}
+.displayBlock {
+	display: block;
+	
+}
+#conclusion {
+	position: absolute;
+	top: 107px;
+	left:0px;
+	opacity: 0;
+
+}
+#disclaimerImg{
+	position: absolute;
+	top: 93px;
+	left: -300px;
+	opacity: 0;
+	z-index:9999;
+}
+#frame7text{
+	position: absolute;
+	margin-top:-150px;
+
+}

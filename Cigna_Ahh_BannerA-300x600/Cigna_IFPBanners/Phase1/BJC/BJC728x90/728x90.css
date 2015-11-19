@@ -1,0 +1,242 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+a,
+.text_link {
+	cursor: pointer;
+	color: inherit;
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+.banner_frame {
+	float: left;
+	position: relative;
+	width: 728px;
+	height: 90px;
+	color: #fff;
+	font-family: Arial, sans-serif;
+	border: solid 1px #000;
+	overflow: hidden;
+	box-sizing: border-box;
+	position: relative;
+	cursor: pointer;
+	max-width: 728px;
+	background: #ffffff;
+}
+#animatedOrangeBox {
+	background: #f68621;
+	width: 728px;
+	height: 90px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	opacity: 1;
+}
+#animatedDarkOrangeBox {
+	background: #e35205;
+	width: 728px;
+	height: 90px;
+	position: absolute;
+	top: 26px;
+	left: -232px;
+	opacity: 0;
+	z-index: 3;
+}
+.mainFrame {
+	display: table;
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	left: 100px;
+	z-index: 10;
+	width: 728px;
+	box-sizing: border-box;
+}
+.centerVertical {
+	display: table-cell;
+	vertical-align: middle;
+	width: 728px;
+	box-sizing: border-box;
+}
+h1 {
+	display: block;
+	margin-left: 15px;
+	font-size: 30px;
+}
+h2 {
+	display: block;
+	margin-left: 15px;
+	font-size: 23px;
+	line-height: 25.5px;
+	text-transform:uppercase;
+	font-weight: 100;
+}
+.center h2 {
+	margin-left: 0px;
+}
+h3 {
+	display: block;
+	padding-left: 10px;
+	padding-right: 20px;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: bold;
+	text-transform:uppercase;
+}
+h4 {
+	display: block;
+	padding-left: 12px;
+	padding-right: 15px;
+	padding-top: 30px;
+	margin-top: 20px;
+	padding-bottom: 35px;
+	font-size: 15px;
+	line-height: 18px;
+}
+h6 {
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	font-size: 15px;
+	line-height: 21px;
+	font-weight: bold;
+	text-transform:uppercase;
+	text-align: left;
+}
+h1 span, h2 span, h3 span, h4 span {
+	display: block;
+}
+sup {
+	font-size: 35%;
+}
+
+#exclamationMark {
+	position: absolute;
+	top: 0px;
+	left: 422px;
+	z-index: 2;
+	color: #e35205;
+	font-size: 40px;
+	opacity: 0;
+	font-family: "Arial Black", "Arial Bold", sans-serif
+}
+#frame5, #frame6, #frame7 {
+	opacity: 1;
+}
+#frame5textA, #frame5textB, #frame5textC, #frame6logo, #frame6textA, #frame6textB, #frame6textC, #frame7headA, #frame7headB, #frame7headC, #frame7headD, #frame7headE, #frame7headF, #frame7textA, #frame7textB, #frame7textC, #frame7textD, #CTAbutton, #frame7Logo, #disclaimer {
+	opacity: 0;
+}
+#finalLogoCTA {
+	padding: 10px;
+}
+#frame7Logo {
+	position: absolute;
+	left: 635.5px;
+	top: 6px;
+}
+#CTAbutton {
+	background-color: #e35205;
+	/*float: right;*/
+	width: 110px;
+	height: 28px;
+	font-size: 15px;
+	line-height: 30px;
+	text-align: center;
+	text-transform:uppercase;
+	padding-left: 4px;
+	padding-right: 4px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+#disclaimer {
+	font-size: 8px;
+	color: #58595b;
+	margin-top: 1px;
+	padding: 1px;
+	margin-right: 5px;
+	position: absolute;
+	top: 50px;
+	left: 505px;
+	font-weight: lighter;
+}
+
+/* ---- Generic Styles  -----  */
+.height50Percent {
+	height: 45px;
+	box-sizing: border-box;
+}
+.height100Percent {
+	height: 90px;
+	box-sizing: border-box;
+}
+.whiteBkgd {
+	background-color: #ffffff;
+}
+.darkOrangeBkgd {
+	background-color: #004986;
+}
+.orangeBkgd {
+	background-color: #00a9ed;
+}
+.center {
+	text-align: center;
+}
+.displayBlock {
+	display: block;
+	
+}
+#frame5 #frame5textA {
+	margin-left: -91px;
+	font-size:25px;
+}
+#frame6logo{
+	position: absolute;
+	left: 501px;
+	top:12px;
+	height: 90px;
+	width: 227px;
+
+}
+#frame6text {
+	position: absolute;
+	left: -59px;
+	margin-top: -1px;
+	z-index: 99999;
+	font-size: 23px;
+	line-height: 27px;
+	font-weight: 100;
+	margin-left: 84px;
+}
+
+#CTAbutton{
+	position: absolute;
+	top:15px;
+	left:495px;
+}
+#frame7head {
+	position: absolute;
+	left: -3px;
+	top: -38px;
+	margin-top: -4px;
+	z-index: 99999;
+	margin-left: 2px;
+}
+#frame7text {
+	position: absolute;
+	left: -7px;
+	top: 12px;
+	margin-top: -4px;
+	z-index: 99999;
+	letter-spacing: 0.5px;
+	margin-left: 2px;
+}

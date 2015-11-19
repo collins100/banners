@@ -1,0 +1,272 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+a,
+.text_link {
+	cursor: pointer;
+	color: inherit;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+.banner_frame {
+	float: left;
+	position: relative;
+	width: 298px;
+	height: 248px;
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	border: solid 1px #000;
+	overflow: hidden;
+	background: #485dc5;
+}
+
+.isi {
+	position: absolute;
+	z-index: 999;
+	bottom: 0;
+	left: 0;
+	height: 45px;
+	width: calc(100% - 10px);
+	padding: 5px;
+	overflow-y: scroll;
+	color: #000;
+	font-size: 7px;
+	line-height: 8px;
+	background: #fff;
+}
+.isi h5 {
+	margin-bottom: 2px;
+	font-size: 8px;
+	font-weight: bold;
+	text-align: center;
+}
+.isi h5 strong {
+	color: #485dc5;
+	font-weight: inherit;
+}
+.isi h6 {
+	margin-bottom: 2px;
+	font-size: 7px;
+	font-weight: bold;
+	text-align: center;
+}
+.isi p {
+	margin-bottom: 8px;
+}
+.isi a,
+.isi .text_link {
+	color: #006cff;
+}
+.isi .indent {
+	margin-bottom: 8px;
+	margin-left: 15px;
+}
+.isi .indent p {
+	margin-bottom: 2px;
+}
+.isi dl,
+.isi ul {
+	margin-bottom: 8px;
+}
+.isi dl dd,
+.isi ul li {
+	display: list-item;
+	list-style-type: disc;
+	list-style-position: inside;
+	margin-left: 9px;
+	text-indent: -7px;
+}
+
+
+.header {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 55px;
+	background: #fff;
+}
+.logo {
+	display: block;
+	position: absolute;
+	top: 6px;
+	left: 10px;
+	width: 73px;
+	height: 38px;
+	text-indent: -104em;
+	overflow: hidden;
+	background: url(logo.png) top left no-repeat;
+	pointer-events: none;
+}
+.safety_callout {
+	position: absolute;
+	z-index: 999;
+	top: 7px;
+	right: 5px;
+	width: 175px;
+	height: 33px;
+	color: #000;
+	font-size: 9px;
+	line-height: 10px;
+}
+.safety_callout .color {
+	color: #5555ca;
+}
+.safety_callout a,
+.safety_callout .text_link {
+	color: #5555ca;
+	text-decoration: none;
+	font-weight: bold;
+}
+#pmrc {
+	position: absolute;
+	right: 5px;
+	bottom: 4px;
+	font-size: 6px;
+	line-height: 8px;
+}
+.disclaimer {
+	position: absolute;
+	bottom: 11px;
+	left: 16px;
+	display: block;
+	font-size: 8px;
+}
+
+
+.text_shadow {
+	color: #fff;
+	text-decoration: none;
+}
+sup {
+	vertical-align: top;
+	font-size: 60%;
+}
+
+
+#bg-exit {
+	position: absolute;
+	top: 0;
+	cursor: pointer;
+	height: 100%;
+	width: 100%;
+}
+
+#stage {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 140px;
+	margin-top: 55px;
+}
+
+.slide {
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	width: 300px;
+	height: 140px;
+}
+.image {
+	z-index: 2;
+}
+.text {
+	color: #fff;
+}
+.text p {
+	display: block;
+	font-size: 19px;
+	line-height: 24px;
+	text-align: center;
+}
+p.three_lines {
+	margin-top: 35px;
+	font-weight: bold;
+}
+
+.fade {
+	opacity: 0;
+}
+
+
+/*		TEMP styles for use in development		*/
+
+
+/* 
+#image1 {
+	opacity: 1 !important;
+}
+ */
+
+
+/*		end frame, CTA, and related styles		*/
+
+#endFrame {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 300px;
+	height: 140px;
+	opacity: 0;
+}
+#endFrame img {
+	position: absolute;
+	left: 0;
+	top: 12px;
+}
+#endFrame p {
+	position: absolute;
+	left: 143px;
+	top: 17px;
+	display: block;
+	width: 154px;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+#cta {
+	position: absolute;
+	left: 143px;
+	top: 80px;
+	display: block;
+	width: 134px;
+	height: 28px;
+	font-size: 12px;
+	line-height: 22px;
+	font-weight: bold;
+	text-align: center;
+	background: #ee8b1f;
+	-webkit-border-radius: 5px;
+	-moz-border-radius:    5px;
+	border-radius:         5px;
+}
+#cta span {
+	display: block;
+	margin: 3px 0;
+}
+
+#bg-exit:hover #cta {
+	background: #ee8b1f;
+}
+
+
+/*		individual styles and variations to slide contents		*/
+
+
+#image1 img {
+	margin-top: 13px;
+}
+
+
+
+
+
+
+
+
+
+

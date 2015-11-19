@@ -1,0 +1,205 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+a,
+.text_link {
+	cursor: pointer;
+	color: inherit;
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+#banner_frame {
+	float: left;
+	position: relative;
+	width: 318px;
+	height: 48px;
+	color: #333366;
+	font-family: Arial, Helvetica, sans-serif;
+	border: solid 1px #000;
+	overflow: hidden;
+	background: #fff;
+}
+
+#bg-exit {
+	position: absolute;
+	top: 0;
+	cursor: pointer;
+	height: 100%;
+	width: 100%;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+
+/*		snowflakes		*/
+
+#snowflakes {
+	position: absolute;
+	z-index: 1;
+	width: 100%;
+	height: 600%;
+	background: url(snowflake.png) top left repeat;
+}
+
+#twinkle {
+	position: absolute;
+	z-index: 2;
+	top: -25%;
+	left: -25%;
+	width: 150%;
+	height: 150%;
+	background: url(Snowflake-Mask.png) top left repeat;
+	background-size: cover;
+}
+
+
+/*		basic slide styles		*/
+
+#stage {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+#logo_small {
+	position: absolute;
+	z-index: 5;
+	top: 18px;
+	left: 278px;
+}
+#logo_lockup {
+	opacity: 0;
+	position: absolute;
+	z-index: 5;
+	top: 3px;
+	left: 220px;
+	line-height: 0;
+}
+#disclaimer_pos {
+	opacity: 0;
+	position: absolute;
+	z-index: 9999;
+	bottom: 1px;
+	left: 1px;
+	width: 100%;
+	color: #999;
+	font-size: 7px;
+	line-height: 8px;
+	text-align: left;
+}
+#disclaimer_size {
+	display: block;
+	width: 90%;
+	margin: 0;
+}
+
+.slide {
+	position: absolute;
+	z-index: 3;
+	left: 0;
+	top: 0;
+	opacity: 0;
+	width: 320px;
+	height: 50px;
+}
+.centering {
+	display: table-cell;
+	vertical-align: middle;
+	width: 280px;
+	height: 35px;
+	text-align: center;
+}
+
+p {
+	font-size: 9px;
+	line-height: 12px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+sup {
+	font-size: 60%;
+	vertical-align: top;
+	line-height: 150%;
+}
+
+.button {
+	position: absolute;
+	left: 248px;
+	top: 30px;
+	display: inline-block;
+	padding: 7px 10px;
+	color: #fff;
+	font-size: 6px;
+	line-height: 0;
+	font-weight: bold;
+	background: #333366;
+	border-radius: 3px;
+}
+#bg-exit:hover .button {
+	color: #333366;
+	background: #ededed;
+}
+
+/*		TEMP styles for use in development		*/
+
+
+/* 
+#slide1 {
+	opacity: 1 !important;
+}
+ */
+
+
+/*		difficult slide styles		*/
+
+
+.textimagebg {
+	width: 85%;
+	height: 75%;
+	margin: 0 5px;
+	margin-top: 5px;
+	background: #fff;
+	border-radius: 25%;
+	filter: blur(5px);
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+}
+.textimage {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	text-indent: -9999em;
+	overflow: hidden;
+	background: url(frame1.png);
+}
+.flourish {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.flourish_top {
+	left: 0;
+	background: url(flourishTop.png) top left no-repeat;
+}
+.flourish_bottom {
+	right: 0;
+	background: url(flourishBottom.png) top right no-repeat;
+}
+
+
+
+
+
+
+
+

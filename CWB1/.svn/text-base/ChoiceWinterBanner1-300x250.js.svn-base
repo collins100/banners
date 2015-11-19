@@ -1,0 +1,16 @@
+/*		VARIABLE DECLARATIONS		*/
+	var textslideA = document.getElementById("textSlideA");
+	var slideB = document.getElementById("slideB");
+	var slideC = document.getElementById("slideC");
+	var textslideC = document.getElementById("textSlideC");
+	var textslideD = document.getElementById("textSlideD");
+	var textfadeC = document.getElementById("textfadeC");
+/*		TIMELINE ACTIONS		*/
+	var tl = new TimelineLite();
+	tl.to(textslideA, 0.9, {left: 0}, "+=.35");
+	tl.to(slideB, .85, {left: 0}, "+=1.5");
+	tl.to(slideC, .79, {left: 0}, "+=1.25");
+	tl.to(textslideC, .83, {left: 0, opacity:1}, "-=.65");
+	tl.to(textslideC, .76, {left: 300}, "+=1.5");
+	tl.to(textslideD, .76, {left: 0, opacity:1}, "-=.65");
+	tl.to(textfadeC, .76, {opacity:1}, "+=.5");

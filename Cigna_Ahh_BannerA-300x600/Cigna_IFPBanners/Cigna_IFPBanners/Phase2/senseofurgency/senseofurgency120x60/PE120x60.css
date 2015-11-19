@@ -1,0 +1,165 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	text-rendering: optimizeLegibility; 
+}
+a,
+.text_link {
+	cursor: pointer;
+	color: inherit;
+	border: none;
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+#banner1 {
+	float: left;
+	position: relative;
+	width: 120px;
+	height: 60px;
+	color: #ffffff;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	border: solid 1px #000;
+	overflow: hidden;
+	cursor: pointer;
+	max-width: 120px;
+	background: #f68621; /*use to be white*/
+}
+#banner1 .slide{
+	width: 120px;
+	position: absolute;
+	top: 5px;
+	left:0px;
+	opacity: 0;	
+	display: inline-block;
+
+}
+img{
+	border:0;
+}
+
+#banner1 #frame1 {
+    opacity: 1;
+    left: 5px;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.15px;
+    margin-top: 2px;
+}
+#banner1 #frame2{
+	top:12px;
+}
+#banner1 img{
+	position: absolute;
+	top: 11px;
+	left: 70px;
+}
+
+
+#banner1 #frame6{
+	font-size: 9px;
+	letter-spacing: 0.25px;
+	height: 98px!important;
+	margin-top: 3px;
+	margin-left: 3px;
+	font-weight: 100;
+
+}
+#banner1 #frame7 {
+
+	font-size: 9px;
+	letter-spacing: 0px;
+	height: 98px!important;
+	position: absolute;
+	z-index:9999;
+	margin-top:3px;
+	margin-left: 4px;
+	opacity:0;
+}
+#banner1 #frame8 {
+	font-size: 10px;
+	letter-spacing: 0px;
+	height: 98px!important;
+	opacity:0;
+	margin-top:7px;
+	margin-left: 3px;
+}
+
+#disclaimer {
+	position: absolute;
+	opacity: 0;
+	font-size: 6px;
+	line-height: 8px;
+	color: #58595b;
+	margin-top: 0px;
+	padding: 4px;
+	margin-right: 5px;
+	width:110px;
+	height:60px;
+	z-index:9999;
+	background-color: #ffffff;
+	border: 1px solid #000000;
+}
+#disclaimer p{
+	margin-top:1px;
+	margin-left:1px;
+
+}
+
+
+#banner1 #cignaLogo{
+	position: absolute;
+	top: 65px;
+	left: 0px;
+	height:22px;
+	width: 120px;
+	opacity: 0;
+	background: #fff;
+	padding-bottom: 3px;
+}
+#banner1 #cignaLogo2 {
+	position: absolute;
+	top: 40px!important;
+	left: 0px;
+	height:20px;
+	width: 120px;
+	opacity: 0;
+
+}
+#disclaimerImg {
+	position: absolute;
+	top: 31px!important;
+	left: 150px;
+	width: 49px!important;
+	height: 9px!important;
+	opacity: 0;
+	z-index:99999;
+}
+
+#banner1 #cta{
+	position: absolute;
+	top: 44px;
+	left: 4px;
+	width: 60px;
+	height: 13px;
+	border-radius: 0px;
+	background-color: #e35205;
+	padding: 0;
+	margin: 0;
+	opacity: 0;
+	/*line-height: 46.5px;*/
+	vertical-align: middle;
+	text-align: center;
+	color: #ffffff;
+	letter-spacing: 1px;
+	text-rendering: optimizeLegibility; 
+}
+div#frame4 {
+    margin-top: 7px;
+}
+sup {
+    font-size: 50%;
+}

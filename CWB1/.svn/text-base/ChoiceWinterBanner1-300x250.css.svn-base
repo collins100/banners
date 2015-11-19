@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	-webkit-font-smoothing: antialiased;
+}
+a {
+	cursor: pointer;
+	border: none;
+	text-decoration: none;
+	color: inherit;
+}
+img{
+	border-style:none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+#banner1 {
+	float: left;
+	position: relative;
+	width: 298px;
+	height: 248px;
+	color: #fff;
+	font-family: 'Droid Serif', serif;
+	border: solid 1px #000;
+	overflow: hidden;
+}
+#banner1 .banner_square{
+	margin: 7px auto;
+	position: relative;
+	width: 284px;
+	height: 180px;	
+	overflow: hidden;
+	border-radius: 0 0 112px 0 / 0 0 104px 0;
+}
+#banner1 .slide{
+	width: 284px;
+	height: 180px;	
+	position: absolute;
+	left:-284px;
+}
+#banner1 .header{
+	width: 284px;
+	height: 180px;	
+	background: url('./CW_hero.jpg');
+	border-radius: 0 0 112px 0 / 0 0 104px 0;
+}
+#banner1 #slideA{
+	left: 0;
+}
+#banner1 #textSlideD,
+#banner1 #textSlideC,
+#banner1 #textSlideA{
+	position: absolute;
+	top: 0;
+	left: -284px;
+	width: 284px;
+	height: 180px;	
+}
+#banner1 #textSlideC{
+	opacity: 0;
+}
+#banner1 #slideA p,
+#banner1 #slideA h1{
+	font-family: 'Droid Serif', serif;
+	text-align: center;
+	font-size: 25px;
+	line-height: 29.9px;
+	font-weight: 400;
+}
+#banner1 #textSlideD p{
+	font-size: 9px;
+	line-height: 10.35px;
+	position: absolute;
+	bottom: 20px;
+	left: 49px;
+}
+#banner1 #textSlideD h1{
+	padding-top: 0;
+	margin-top: 0;
+	text-align: center;
+	position: absolute;
+	top: -10px;
+	left: 10px;
+}
+#banner1 #slideA h1,
+#banner1 #slideC h1{
+	padding-top: 45px;
+	font-weight: 400;
+}
+#banner1 #slideC h1{
+	font-family: 'Droid Serif', serif;
+	text-align: center;
+	font-size: 25px;
+	line-height: 29.9px;
+}
+#banner1 #textSlideD h1{
+	font-size: 23px !important;
+	line-height: 25.9px !important;
+	padding-top: 25px !important;
+	position: absolute;
+	left: 40px;
+}
+#banner1 #slideA h1 sup{
+	font-weight: 400;
+	font-size: 12px;
+}
+#banner1 #slideC h1 sup{
+	font-weight: 400;
+	font-size: 12px;
+}
+#banner1 #slideB .header{
+	background: url('./CW_lady.jpg');
+}
+#banner1 #slideC .cta{
+	position: absolute;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 31px;
+	top:105px;
+	left:56px;
+	padding: 0;
+	margin: 0;
+	width: 150px;
+	height: 31px;
+	border-radius: 5px;
+	border: 1px solid #e16811;
+	-webkit-box-shadow: 2px 2px 0px 0px rgba(193, 180, 154, 1);
+	-moz-box-shadow:    2px 2px 0px 0px rgba(193, 180, 154, 1);
+	box-shadow:         2px 2px 0px 0px rgba(193, 180, 154, 1);
+	background: #ffffff;
+	text-align: center;
+	color: #e16811;
+	opacity: 0;
+}
+#banner1:hover #slideC .cta{
+	color: #ffffff;
+	background: #e16811;
+	border: 1px solid #ffffff;
+}
+#banner1:hover #slideC .cta img#btnarrowHover{
+	opacity: 1;
+}
+#banner1 #slideC .cta img{
+	position: absolute;
+	right: 5px;
+	top: 8px;
+}
+
+#banner1 #slideC .cta img#btnarrowHover{
+	opacity: 0;
+}
+#banner1 .footer{
+	width: 208px;
+	height: 25px;
+	position: absolute;
+	bottom:17px;
+	left: 7px;
+	background: url('./CW_footer.jpg');
+	background-repeat: no-repeat;
+}

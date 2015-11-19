@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>FDF15572 FDF15573 AWA Holiday</title>
+        <script type="text/javascript">
+            var clickTag = "";
+        </script>
+<style>
+     body{
+    margin: 0;
+    padding: 0;
+ }
+ @font-face {
+                font-family: "NHaasGroteskTXStd-55Rg";
+                src: url('https://cdde858ebed93488811f-4a840a140d7caee3c01f302484ec5d42.ssl.cf2.rackcdn.com/Fonts/neuehaasgroteskdisplay.ttf') format('ttf'),
+                     url('https://cdde858ebed93488811f-4a840a140d7caee3c01f302484ec5d42.ssl.cf2.rackcdn.com/Fonts/neuehaasgroteskdisplay.woff') format('woff'),
+                     url('https://cdde858ebed93488811f-4a840a140d7caee3c01f302484ec5d42.ssl.cf2.rackcdn.com/Fonts/neuehaasgroteskdisplay.woff2') format('woff2'),
+                     url('https://cdde858ebed93488811f-4a840a140d7caee3c01f302484ec5d42.ssl.cf2.rackcdn.com/Fonts/neuehaasgroteskdisplay.svg') format('svg');
+                font-weight:400;
+                font-style:normal;
+            }
+            
+@font-face {
+                font-family: "NHaasGroteskDSStd-75Bd";
+                src: url('https://cdde858ebed93488811f-4a840a140d7caee3c01f302484ec5d42.ssl.cf2.rackcdn.com/Fonts/neuehaasgroteskdisplaybold.ttf') format('ttf'),
+                     url('https://cdde858ebed93488811f-4a840a140d7caee3c01f302484ec5d42.ssl.cf2.rackcdn.com/Fonts/neuehaasgroteskdisplaybold.woff') format('woff'),
+                     url('https://cdde858ebed93488811f-4a840a140d7caee3c01f302484ec5d42.ssl.cf2.rackcdn.com/Fonts/neuehaasgroteskdisplaybold.woff2') format('woff2'),
+                     url('https://cdde858ebed93488811f-4a840a140d7caee3c01f302484ec5d42.ssl.cf2.rackcdn.com/Fonts/neuehaasgroteskdisplaybold.svg') format('svg');
+                font-weight:800;
+}   
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+#AWAHoliday300x250{
+   -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    -ms-font-feature-settings: normal;
+    font-family: 'NHaasGroteskDSStd-75Bd', "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -ms-font-smoothing:antialiased;
+    -o-font-smoothing:antialiased;
+     font-smoothing:antialiased;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+    font-weight: 800;
+    font-style:normal;
+    width: 300px;
+    height: 250px;
+    background-color: #e6e6e5;
+    border: 1px solid #999999;
+    color: #000000;
+    overflow: hidden;
+}
+#AWAHoliday300x250 #clickable{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+    left: 0;
+    top: 0;
+    z-index: 9;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#AWAHoliday300x250 img{display: block; border: none;}
+#AWAHoliday300x250 a{border: none; text-decoration: none;}
+#AWAHoliday300x250 #whiteBox1{
+    position: absolute;
+    width: 300px;
+    height: 90px;
+    background-color: #ffffff; 
+    bottom: 0px;
+     z-index: 1;
+}
+#AWAHoliday300x250 #whiteBoxSnow {
+    position: absolute; 
+    bottom: -130px; 
+    width: 300px; 
+    height: 130px; 
+    left: 0px; 
+    background-color: #ffffff; 
+}
+#AWAHoliday300x250 #whiteBox2 {
+    position: absolute; 
+    bottom: 0px; 
+    width: 300px; 
+    height: 130px; 
+    left: 0px; 
+    background-color: #ffffff;
+    opacity: 0;
+    z-index: 3;
+}
+#AWAHoliday300x250 #whiteBoxSnow {
+    bottom: -300px; 
+    width: 300px; 
+    height: 300px;
+    z-index: 6;
+}
+#AWAHoliday300x250 #fios-logo{
+    position: relative;
+    width: 65px;
+    height: 40px;
+    left: 24px;
+    top: 30px;
+}
+#AWAHoliday300x250 #copy1a, #AWAHoliday300x250 #copy1b, #AWAHoliday300x250 #copy1c, #AWAHoliday300x250 #copy1d, #AWAHoliday300x250 #copy2a, #AWAHoliday300x250 #copy2b, #AWAHoliday300x250 #copy2c, #AWAHoliday300x250 #copy2d,
+#AWAHoliday300x250 #copy3a, #AWAHoliday300x250 #copy3b, #AWAHoliday300x250 #copy3c, #AWAHoliday300x250 #copy4a, #AWAHoliday300x250 #copy4b, #AWAHoliday300x250 #copy4c{
+    position: absolute;
+    left: 24px;
+    color: #cd040b;
+    opacity: 0;
+    font-size: 24px;
+    z-index: 3;
+}
+
+#AWAHoliday300x250 #copy1a, #AWAHoliday300x250 #copy2a, #AWAHoliday300x250 #copy3a{top: 25px;}
+#AWAHoliday300x250 #copy1b, #AWAHoliday300x250 #copy2b, #AWAHoliday300x250 #copy3b{top: 51px;}
+#AWAHoliday300x250 #copy1c, #AWAHoliday300x250 #copy2c, #AWAHoliday300x250 #copy3c{top: 77px;}
+#AWAHoliday300x250 #copy1d, #AWAHoliday300x250 #copy2d{top: 103px;}
+#AWAHoliday300x250 #copy4a, #AWAHoliday300x250 #copy4b, #AWAHoliday300x250 #copy4c {left: 110px; z-index: 6}
+
+#AWAHoliday300x250 #copy4a{top: 80px;}
+#AWAHoliday300x250 #copy4b{top: 107px;}
+#AWAHoliday300x250 #copy4c{top: 136px;}
+#AWAHoliday300x250 #whiteBox2 #channel{position: relative; width: 242px; height: 81px; left:24px; top: 24px;}
+#AWAHoliday300x250 #bgEffect{ background-image: url(images/snowflakes.png); background-repeat: repeat-y; position: absolute; background-position: 0px 25px; width: inherit; height: 235px; z-index: 0; top: 0; left: 0;}
+#AWAHoliday300x250 #whiteBox{
+    width: 300px;
+    height: 250px;
+    background: #ffffff;
+    position: relative;
+    z-index: 5;
+    opacity: 0;
+}
+#AWAHoliday300x250 #whiteBoxOffer{
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: #e6e6e5;
+    opacity: 0;
+    z-index: 9;
+}
+#AWAHoliday300x250 #copy5a, #AWAHoliday300x250 #copy5b, #AWAHoliday300x250 #copy5c, #AWAHoliday300x250 #copy5d, #AWAHoliday300x250 #copy5e {position: absolute; left: 24px; opacity: 0; color: #000000;}
+#AWAHoliday300x250 #copy5a{top: 24px;}
+#AWAHoliday300x250 #copy5b{top: 50px;}
+#AWAHoliday300x250 #copy5c{top: 110px; font-size: 12px; color: #4b4b4b; font-family: 'NHaasGroteskTXStd-55Rg', "Helvetica Neue", Arial, sans-serif; line-height: 14px; font-weight: 200;}
+#AWAHoliday300x250 #copy5d{top: 192px;}
+#AWAHoliday300x250 #copy5e{top: 192px; left: 120px; width: 159px; height: 38px; overflow: hidden;}
+    
+#AWAHoliday300x250 #whiteBox2 #channel_1, #AWAHoliday300x250 #whiteBox2 #channel_2, #AWAHoliday300x250 #whiteBox2 #channel_3, #AWAHoliday300x250 #whiteBox2 #channel_4, #AWAHoliday300x250 #whiteBox2 #channel_5, #AWAHoliday300x250 #whiteBox2 #channel_6 { position: absolute;}
+#AWAHoliday300x250 #whiteBox2 #channel_1{top: 24px; left: 24px}
+#AWAHoliday300x250 #whiteBox2 #channel_2{top: 24px; left: 100px}
+#AWAHoliday300x250 #whiteBox2 #channel_3{top: 20px; left: 200px}
+#AWAHoliday300x250 #whiteBox2 #channel_4{top: 80px; left: 24px}
+#AWAHoliday300x250 #whiteBox2 #channel_5{top: 80px; left: 110px}
+#AWAHoliday300x250 #whiteBox2 #channel_6{top: 80px; left: 200px}
+</style>
+    </head>
+    <body>
+        <!--- Banner -->
+   <div id="AWAHoliday300x250">
+       <div id="bgEffect"></div>
+       <a id="clickable" href="javascript:window.open(window.clickTag)">
+       <div id="bannerWrapper">
+       <!-- FRAME 1 -->
+       <div id="copy1a">The more guests</div>
+       <div id="copy1b">you have, the more</div>
+       <div id="copy1c">entertainment</div>
+       <div id="copy1d">you need.</div>
+
+       <!-- FRAME 2 -->
+       <div id="copy2a">Fill your holidays</div>
+       <div id="copy2b">with speed,</div>
+       <div id="copy2c">channels and</div>
+       <div id="copy2d">a $400 bonus.</div>
+       
+       <!-- FRAME 3 -->
+       <div id="copy3a">Get premium</div>
+       <div id="copy3b">movie channels</div>
+       <div id="copy3c">for a year.</div>
+       
+       <!-- FRAME 4 -->
+       <div id="whiteBox"><img src="images/circlebg.png" id="circle" /></div>
+       <div id="copy4a">Plus</div>
+       <div id="copy4b">a $400</div>
+       <div id="copy4c">bonus.</div>
+       <div id="whiteBoxSnow"></div>
+       <div id="whiteBox1">
+           <img src="images/fios-logo.png" id="fios-logo" />
+       </div>
+       <div id="whiteBoxOffer">
+           <div id="copy5a">Fios 50 Mbps Internet, TV &amp; Phone.</div>
+           <div id="copy5b"><img src="images/offer-lockup.png" alt="$79.99 /mo."></div>
+           <div id="copy5c">for 1 yr. and $99.99/mo. for yr. 2 w/2-yr. <br /> 
+               agmt. Add $30/mo. base Fios Equipment<br /> Package. Taxes, FDV &amp; other fees apply.</div>
+           <div id="copy5d"><img src="images/fios-logo.png" alt="fios"/></div>
+           <div id="copy5e"><a href="#"><img src="images/learnmorebtn.png" alt="See deal"></a>
+           <div id="ctaShimmer"></div>
+           </div>
+       </div>
+       <div id="whiteBox2">
+           <img src="images/channel_01.png" id="channel_1" alt="HBO&reg;">
+           <img src="images/channel_02.png" id="channel_2" alt="SHOWTIME&reg;">
+           <img src="images/channel_03.png" id="channel_3" alt="CINEMAX&reg;">
+           <img src="images/channel_04.png" id="channel_4" alt="starz&reg;">
+           <img src="images/channel_05.png" id="channel_5" alt="ePiX&reg;">
+           <img src="images/channel_06.png" id="channel_6" alt="encore&reg;">
+       </div>
+    </div>
+ </a>
+</div>
+        <!--- Banner -->
+    </body>
+        <!--<script type="text/javascript" src="CSSPlugin.min.js"></script>
+        <script type="text/javascript" src="EasePack.min.js"></script>-->
+        <script type="text/javascript" src="CSSRulePlugin.min.js"></script>
+        <script type="text/javascript" src="TweenMax.min.js"></script>
+    <script>
+(function(){
+    
+    // Help Functions
+    var snowFallingEfx = function(element, speed, distance, delay, repeat){
+        var t1 = new TimelineMax({repeat:repeat, repeatDelay:delay});
+        t1.add(TweenLite.to(element, speed, {css:{'background-position': "0px " + distance +"px"}, ease:Linear.easeNone, force3D:true, rotationZ:0.01}));
+    };
+    
+    var channelInitEfx = function(element, delay){
+        TweenLite.from(element, .7, {scale:0.5, opacity:0, delay:delay, ease:Back.easeOut, force3D:true}, 0.2);
+    }
+    var channelEndEfx = function(element, delay){
+        TweenLite.to(element, 0.5, {opacity:0, y:+100, delay: delay, ease:Back.easeIn}, 0.1);
+    }
+    
+    var copyIn = function(element, speed, delay){
+        TweenLite.from(element, speed, {y:"+=25", opacity:0, ease:Strong.easeOut, delay:delay, force3D:true, rotationZ:0.01});
+    };
+    
+    var copyAlpha = function(element, speed, alpha, delay){
+        TweenLite.to(element, speed, {opacity: alpha, force3D:true, delay: delay});
+    };
+    
+    var whiteBoxOut = function(element, speed, delay, bottom){
+        TweenLite.to(element, speed, {bottom: "-=" +bottom, force3D:true, delay: delay, ease:Strong.easeOut, force3D:true});
+    };
+    
+    var whiteBoxIn = function(element, speed, delay, bottom){
+        TweenLite.to(element, speed, {bottom: "+=" +bottom, force3D:true, delay: delay, ease:Strong.easeIn, force3D:true});
+    };
+    var changeBackground = function(element, bgcolor, opacity,  delay){
+        TweenLite.to(element, 1, {backgroundColor: bgcolor, opacity: opacity, ease:Power3.easeOut, delay: delay})
+    };
+
+    // Scenes 
+    var sceneFive = function(){
+         copyAlpha(copy4a, .2, 0, 0);
+         copyAlpha(copy4b, .4, 0, 0);
+         copyAlpha(copy4c, .6, 0, 0);
+        
+         copyAlpha(whiteBoxOffer, .5, 1, 0);
+        
+         copyAlpha(copy5a, 0, 1, 0);
+         copyAlpha(copy5b, 0, 1, 0);
+         copyAlpha(copy5c, 0, 1, 0);
+         copyAlpha(copy5d, 0, 1, 0);
+         copyAlpha(copy5e, 0, 1, 0);
+         copyIn(copy5a, 1, .6);
+         copyIn(copy5b, 1, .7);
+         copyIn(copy5c, 1, .8);
+         copyIn(copy5d, 1, .9);
+         copyIn(copy5e, 1, 1);
+    };
+    
+     var sceneFour = function(){
+         copyAlpha(copy3a, .5, 0, 0);
+         copyAlpha(copy3b, .5, 0, 0);
+         copyAlpha(copy3c, .5, 0, 0);
+        
+         copyAlpha(copy4a, 0, 2, 0);
+         copyAlpha(copy4b, 0, 2, 0);
+         copyAlpha(copy4c, 0, 2, 0);
+         copyIn(copy4a, 2, .6);
+         copyIn(copy4b, 2, .7);
+         copyIn(copy4c, 2, .8);
+        
+         changeBackground(whiteBox, 'none', 1, 1);
+         changeBackground(AWAHoliday300x250, '#e9f8e9', 1, 1);
+         
+         snowFallingEfx(bgEffect, 3, 275, 0, -1);
+         whiteBoxIn(whiteBoxSnow, 5, .5, 300);
+        
+        TweenLite.delayedCall(5.5, sceneFive);
+     };
+    
+    var sceneThree = function(){
+         channelEndEfx(channel_1, .5);
+         channelEndEfx(channel_2, .6);
+         channelEndEfx(channel_3, .7);
+         channelEndEfx(channel_4, .8);
+         channelEndEfx(channel_5, .9);
+         channelEndEfx(channel_6, 1);
+         changeBackground(whiteBox, '#ffffff', 1, 1.5);
+         copyAlpha(whiteBox2, .5, 0, 1.7);
+
+         TweenLite.delayedCall(2, sceneFour);
+     };
+    
+    var sceneTwo = function(){
+         copyAlpha(copy2a, .5, 0, 0);
+         copyAlpha(copy2b, .5, 0, 0);
+         copyAlpha(copy2c, .5, 0, 0);
+         copyAlpha(copy2d, .5, 0, 0);
+        
+         copyAlpha(copy3a, 0, 1, 0);
+         copyAlpha(copy3b, 0, 1, 0);
+         copyAlpha(copy3c, 0, 1, 0);
+         copyIn(copy3a, 1, .6);
+         copyIn(copy3b, 1, .7);
+         copyIn(copy3c, 1, .8);
+        
+         copyAlpha(whiteBox1, .5, 0, 0);
+         copyAlpha(whiteBox2, .6, 1, 0);
+         channelInitEfx(channel_1, 0.5);
+         channelInitEfx(channel_2, 0.6);
+         channelInitEfx(channel_3, 0.7);
+         channelInitEfx(channel_4, 0.8);
+         channelInitEfx(channel_5, 0.9);
+         channelInitEfx(channel_6, 1.0);
+        
+         TweenLite.delayedCall(4, sceneThree);
+     };
+    
+     var sceneOne = function(){
+         copyAlpha(copy1a, .5, 0, 0);
+         copyAlpha(copy1b, .5, 0, 0);
+         copyAlpha(copy1c, .5, 0, 0);
+         copyAlpha(copy1d, .5, 0, 0);
+
+         copyAlpha(copy2a, 0, 1, 0);
+         copyAlpha(copy2b, 0, 1, 0);
+         copyAlpha(copy2c, 0, 1, 0);
+         copyAlpha(copy2d, 0, 1, 0);
+         copyIn(copy2a, 1, .6);
+         copyIn(copy2b, 1, .7);
+         copyIn(copy2c, 1, .8);
+         copyIn(copy2d, 1, .9);
+         
+        TweenLite.delayedCall(3.5, sceneTwo);
+     };
+
+     var sceneUn = function(){
+         copyAlpha(copy1a, 0, 1, 0);
+         copyAlpha(copy1b, 0, 1, 0);
+         copyAlpha(copy1c, 0, 1, 0);
+         copyAlpha(copy1d, 0, 1, 0);
+
+         copyIn(copy1a, 1, .6);
+         copyIn(copy1b, 1, .7);
+         copyIn(copy1c, 1, .8);
+         copyIn(copy1d, 1, .9)
+         
+        TweenLite.delayedCall(3.5, sceneOne);
+     }();
+     
+     snowFallingEfx(bgEffect, 8, 275, 0, -1);
+    
+})();
+    </script>
+</html>

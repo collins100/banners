@@ -1,0 +1,259 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+a,
+.text_link {
+	cursor: pointer;
+	color: inherit;
+	text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+}
+
+.banner_frame {
+	float: left;
+	position: relative;
+	width: 320px;
+	height: 50px;
+	color: #fff;
+	font-family:Arial, Helvetica, sans-serif;
+	border: solid 1px #000;
+	overflow: hidden;
+	box-sizing: border-box;
+	position: relative;
+	cursor: pointer;
+	max-width: 320px;
+	background: #ffffff;
+}
+#animatedOrangeBox {
+	background: #f68621;
+	width: 320px;
+	height: 50px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	opacity: 0;
+}
+#animatedDarkOrangeBox {
+	background: #e35205;
+	width: 320px;
+	height: 100%;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 1;
+	z-index: 1;
+}
+.mainFrame {
+	display: table;
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+	width: 320px;
+	box-sizing: border-box;
+}
+.centerVertical {
+	display: table-cell;
+	vertical-align: middle;
+	width: 320px;
+	box-sizing: border-box;
+}
+h1 {
+	display: block;
+	margin-left: 20px;
+	font-size: 52px;
+}
+h2 {
+	display: block;
+	margin-left: 20px;
+	font-size: 16px;
+	line-height: 14px;
+	text-transform:uppercase;
+}
+.center h2 {
+	margin-left: 0px;
+}
+h3 {
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: bold;
+	text-transform:uppercase;
+}
+h4 {
+	display: block;
+	padding-left: 20px;
+	padding-right: 15px;
+	padding-top: 17px;
+	padding-bottom: 15px;
+	font-size: 16px;
+	line-height: 18px;
+}
+h6 {
+	display: block;
+	padding-left:4px;
+	padding-right: 2px;
+	padding-top:4px;
+	padding-bottom:10px;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: bold;
+	text-transform:uppercase;
+	text-align: left;
+}
+h1 span, h2 span, h3 span, h4 span, h6 span {
+	display: block;
+}
+sup {
+	font-size: 50%;
+}
+#exclamationMark {
+	position: absolute;
+	top: -10px;
+	left: 255px;
+	z-index: 2;
+	color: #e35205;
+	font-size: 52px;
+	opacity: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+#frame1, #frame2, #frame3, #frame4, #frame6, #frame7 {
+	opacity: 1;
+}
+#frame7head {
+	height: 82px;
+	box-sizing: border-box;
+	text-align:left;
+	font-size: 14px;
+	margin-top: 7px;
+	margin-left: 12px;
+	position:absolute;
+}
+#frame7head:after {
+	content:"";
+	display: block;
+	height: 0px;
+	clear: both;
+}
+#frame1textA, #frame1textB, #frame2textA, #frame2textB, #frame3textA, #frame3textB, #frame4textA, #frame4textB,  #frame6logo, #frame6textA, #frame6textB, #frame6textC, #frame6textD, #frame7headA, #frame7headB, #frame7headC, #frame7textA, #frame7textB, #CTAbutton, #frame7Logo, #disclaimer {
+	opacity: 0;
+}
+
+#finalLogoCTA {
+	padding: 10px;
+}
+#frame7Logo {
+	position: relative;
+	left: -10px;
+}
+#CTAbutton {
+	position: absolute;
+	top:6px;
+	left:151px;
+	background-color: #e35205;
+	font-size: 11px;
+	line-height: 26px;
+	text-transform:uppercase;
+	padding-left: 3px;
+	padding-right: 3px;
+	width: 80px;
+	height: 26px;
+	text-align: center;
+}
+#disclaimer {
+	font-size: 8px;
+	line-height: 9px;
+	color: #58595b;
+	margin-top: 4px;
+}
+
+/* ---- Generic Styles  -----  */
+.height50Percent {
+	height: 25px;
+	box-sizing: border-box;
+}
+.height100Percent {
+	height: 50px;
+	box-sizing: border-box;
+}
+.whiteBkgd {
+	background-color: #ffffff;
+}
+.darkOrangeBkgd {
+	background-color: #e35205;
+}
+.orangeBkgd {
+	background-color: #f68621;
+}
+.center {
+	text-align: center;
+}
+.displayBlock {
+	display: block;
+}
+#frame6logo{
+	position: absolute;
+	top: 8px;
+	left: 200px;
+}
+#frame7Logo{
+	position: absolute;
+	top: 6px;
+	left: 253px;
+}
+#discImg{
+	position: absolute;
+	top: 35px;
+	left: 320px;
+	opacity: 0;
+	z-index:99999;
+}
+
+#disclaimer {
+	position: absolute;
+	opacity: 0;
+	font-size: 7px;
+	line-height: 10px;
+	color: #58595b;
+	margin-top: -5px;
+	padding: 4px;
+	left:4px;
+	width:280px;
+	height:20px;
+	background-color: #ffffff;
+	border: 1px solid #000000;
+}
+#disclaimer p{
+	margin-top:1px;
+	margin-left:2px;
+
+}
+h3#frame1text {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.25px;
+    padding: 0 0 0 0;
+    text-align: center;
+}
+h2#frame2text {
+    text-align: center;
+    margin-left: 0px;
+}
+h2#frame3text {
+    text-align: center;
+    margin-left: 0px;
+}
+h3#frame4text {
+    text-align: center;
+    font-weight: 500;
+}

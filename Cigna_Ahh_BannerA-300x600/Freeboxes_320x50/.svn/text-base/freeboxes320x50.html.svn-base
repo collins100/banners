@@ -1,0 +1,91 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="TweenLite.min.js"> </script>
+    <script type="text/javascript" src="TimelineLite.min.js"> </script>
+    <script type="text/javascript" src="CSSPlugin.min.js"> </script>
+    <title>20150930_FreeBoxes_320x50</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
+    <meta name="ad.size" content="width=320,height=50">
+    <link rel="stylesheet" href="freeboxes320x50.css" />
+    
+		<script type="text/javascript">
+			var clickTag1 = "http://www.google.com";
+		</script>
+
+  </head>
+  <body>
+
+	<div id="banner_frame">
+
+		<a id="bg-exit" href="javascript:window.open(window.clickTag1)">
+
+			<div id="snowflakes"></div>
+			<div id="twinkle"></div>
+			
+			<img id="logo_small" src="logo-small.png" alt="USPS logo" />
+			
+			<img id="logo_lockup" src="logo-large.png" alt="United States Postal Service&reg; | This is our season&reg;" />
+			<div id="disclaimer_pos">Cajas son entregadas dentro de los EE.UU.con entrega de correo regular<br />dentro de 7 a 10 día útiles. Para ordenar, visita https://store.usps.com/store.</div>
+
+			
+			<div id="stage">
+			
+				<div class="slide" id="slide1">
+					<div class="textimagebg"></div>
+					<div class="textimage">Cuenta Con Una Avalancha De Familiares Visitándote</div>
+					<div class="flourish flourish_top"></div>
+					<div class="flourish flourish_bottom"></div>
+				</div>
+ 
+ 				<div class="slide" id="slide2">
+					<div class="centering">
+						<p>
+							Y CON TENER TODAS LAS CAJAS<br />
+							PARA ENVÍOS QUE NECESITAS.
+						</p>
+					</div>
+ 				</div>
+ 				
+ 				<div class="slide" id="slide3">
+ 					<div class="centering">
+ 						<p>
+ 							ENTREGA GRATIS<br /> 
+							DE CAJAS PARA ENVÍOS.
+ 						</p>
+ 						<div class="button">
+ 							Ordena Ahora
+ 						</div>
+ 					</div>
+ 				</div>
+				
+			</div>
+		
+		</a>
+		
+	</div>
+
+	</body>
+
+  <script type="text/javascript" src="freeboxes320x50.js"></script>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
