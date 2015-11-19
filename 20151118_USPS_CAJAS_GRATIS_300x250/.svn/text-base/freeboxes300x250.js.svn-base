@@ -1,0 +1,35 @@
+
+	var snowflakes = document.getElementById("snowflakes");
+	var twinkle = document.getElementById("twinkle");
+	
+	var flourish = document.getElementsByClassName("flourish");
+	
+	var tl = new TimelineLite();
+	
+	
+	
+	TweenLite.from(snowflakes, 30, {y:-300});
+	TweenLite.to(twinkle, 30, {rotation:360});
+	
+	
+
+	tl.to(slide1, 1, {opacity:1});
+	tl.from(flourish, 6, {width:"20%"}, "frame-=1");
+
+	tl.to(slide1, 1, {opacity:0}, "-=1");
+	tl.to(slide2, 1, {opacity:1});
+	tl.to(disclaimer_pos, 1, {opacity:1}, "-=1");
+
+	tl.to(slide2, 1, {opacity:0}, "+=4");
+	tl.to(logo_small, 1, {opacity:0}, "-=1");
+	tl.to(slide3, 1, {opacity:1});
+
+	tl.to(logo_lockup, 1, {opacity:1}, "=+1.2");
+
+	//tl.pause("frame");
+
+
+
+
+
+
